@@ -23,7 +23,7 @@ export default function Map({ place }: MapProps) {
       center={[40.7, -74]}
       zoom={12}
       scrollWheelZoom
-      className="w-full min-h-screen md:h-[600px] rounded-lg shadow-lg"
+      className="w-full h-[60vh] md:h-[100vh] bg-white rounded-lg shadow-lg"
     >
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
       {place && <Marker position={[place.latitude, place.longitude]} />}
