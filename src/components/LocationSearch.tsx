@@ -56,7 +56,7 @@ export default function LocationSearch({ onPlaceClick, darkMode, onToggleDarkMod
         </div>
       </div>
 
-      <div className="mt-6 flex justify-end md:justify-start">
+      <div className="mt-6 flex justify-end md:justify-start ml-3">
         <button
           onClick={onToggleDarkMode}
           className="w-full md:w-auto p-2 rounded-md
